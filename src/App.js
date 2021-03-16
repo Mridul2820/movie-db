@@ -1,13 +1,18 @@
 import React from 'react'
-import './app.scss'
+import SearchBar from './components/SearchBar'
+import './styles/app.scss'
 
 const App = () => {
     return (
         <div className="app">
-            App Clean
+            <header>
+                <h1>Movie Database</h1>
+            </header>
+            <main>
+                <SearchBar />
+            </main>
         </div>
     )
 }
 
 export default App
-
